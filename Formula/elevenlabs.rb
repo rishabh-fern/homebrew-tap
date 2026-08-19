@@ -1,25 +1,25 @@
 class Elevenlabs < Formula
   desc "CLI for the ElevenLabs API Documentation"
   homepage "https://github.com/rishabh-fern/elevenlabs-cli-dist-test"
-  version "0.0.3"
+  version "0.0.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/rishabh-fern/elevenlabs-cli-dist-test/releases/download/v0.0.3/elevenlabs-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "d9b06e95f8810b15ee897bf5f4d5e2351f5d7d854be7693c2cf57c16c70dd195"
+      url "https://github.com/rishabh-fern/elevenlabs-cli-dist-test/releases/download/v0.0.4/elevenlabs-cli-aarch64-apple-darwin.tar.gz"
+      sha256 "978541f447f0aa1d96a255fa57cd151c1c936637c016942c96690fe2598e1257"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rishabh-fern/elevenlabs-cli-dist-test/releases/download/v0.0.3/elevenlabs-cli-x86_64-apple-darwin.tar.gz"
-      sha256 "22bb43101206d3679e497f24a19e59e00f52042c0844f03c9318100ba3fc0e0f"
+      url "https://github.com/rishabh-fern/elevenlabs-cli-dist-test/releases/download/v0.0.4/elevenlabs-cli-x86_64-apple-darwin.tar.gz"
+      sha256 "a0bee6d712790bbd7ba4cf6929f00ccf96a388ce5f83f61c18b8ea12a280febf"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/rishabh-fern/elevenlabs-cli-dist-test/releases/download/v0.0.3/elevenlabs-cli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "361e8a59245727aed8a363417a3ec99d89f6fc02bcaceb76d42b984a6dd7a6cc"
+      url "https://github.com/rishabh-fern/elevenlabs-cli-dist-test/releases/download/v0.0.4/elevenlabs-cli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b8966e18537c82f501ff24b895554c0065d32fa40a096f4ea672ba6520e91f01"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rishabh-fern/elevenlabs-cli-dist-test/releases/download/v0.0.3/elevenlabs-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c7bdee5194eb9f20c11ab27b49e61bcb6b02662280a382ae92a53367d3489869"
+      url "https://github.com/rishabh-fern/elevenlabs-cli-dist-test/releases/download/v0.0.4/elevenlabs-cli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2d449ce3c69a4945a8cde19de91cab2ecda25673218043ddfff7e547124a083e"
     end
   end
   license "Apache-2.0"
